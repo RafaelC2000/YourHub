@@ -1,5 +1,7 @@
 $nameProfile = document.querySelector(".name")
-
+$urlVideo = document.getElementById("search")
+$search = document.querySelector(".search")
+$video = document.getElementById("video")
 
 let random_name = ["Aylen Tejas",
     "Aiser Beza",
@@ -108,3 +110,9 @@ function addUserName(){
 }
 
 addUserName()
+
+$search.addEventListener('click', () => {
+    let a = $urlVideo.value
+    $video.setAttribute("src", a)
+    console.log(a)
+})
