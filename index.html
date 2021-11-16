@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="icon" href="./yh.svg">
+    <title>YourHub</title>
 </head>
 <body>
     <header>
@@ -15,23 +16,33 @@
             </div>
             <div class="input_url">
                 <input type="text" placeholder=" Paste URL" id="search">
-                <button>
+                <button class="search">
                     <img src="https://i.ibb.co/c6nBhy6/search-sharp.png" alt="search-sharp">
                 </button>
+                <button class="record">&#9689; Grabar</button>
+                <button class="update">&#9829; Actualizar</button>
             </div>
-            <div class="user">
-
+            <div class="profile">
+                <div class="name">
+                    
+                </div>
+                <div class="user">
+                    <img src="https://source.unsplash.com/featured/?people" alt="user">
+                </div>
             </div>
        </div>  
         <nav>
-            <div class="nav_sections">INICIO</div>
-            <div class="nav_sections">VIDEOS</div>
-            <div class="nav_sections">CATEFORÍAS</div>
-            <div class="nav_sections">CÁMARAS EN VIVO</div>
-            <div class="nav_sections">ESTRELLAS YOUR</div>
-            <div class="nav_sections">COMUNIDAD</div>
-            <div class="nav_sections">FOTOS Y GIFS</div>
+            <ul>
+                <li class="nav_sections">INICIO</li>
+                <li class="nav_sections">VIDEOS &#9660;</li>
+                <li class="nav_sections">CATEFORÍAS &#9660;</li>
+                <li class="nav_sections">CÁMARAS EN VIVO &#9660;</li>
+                <li class="nav_sections">ESTRELLAS YOUR &#9660;</li>
+                <li class="nav_sections">COMUNIDAD &#9660;</li>
+                <li class="nav_sections">FOTOS Y GIFS &#9660;</li>
+            </ul>
         </nav>
     </header>
+    <script src="./app.js"></script>
 </body>
 </html>
